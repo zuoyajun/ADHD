@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41fd3f90-ca5b-4488-88a7-6ee3d0de735b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ADHD$read_yaml.coverage" NAME="read_yaml Coverage Results" MODIFIED="1612170385594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/ADHD$logging_.coverage" NAME="logging_ Coverage Results" MODIFIED="1609324987174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test04_admin_search_doctor_TestAdminSearchDoctor.coverage" NAME="pytest for test04_admin_search_doctor.TestAdminSearchDoctor Coverage Results" MODIFIED="1608081698384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$redis_cl.coverage" NAME="redis_cl Coverage Results" MODIFIED="1612685434438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test05_admin_doctor_sort_TestAdminDoctorSort_test_admin_doctor_sort.coverage" NAME="pytest for test05_admin_doctor_sort.TestAdminDoctorSort.test_admin_doctor_sort Coverage Results" MODIFIED="1611129220293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$1.coverage" NAME="1 Coverage Results" MODIFIED="1610071683685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test01_admin_login_TestAdminLogin.coverage" NAME="pytest for test01_admin_login.TestAdminLogin Coverage Results" MODIFIED="1610346548969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_in_test07_admin_login_porget_password_py.coverage" NAME="pytest in test07_admin_login_porget_password.py Coverage Results" MODIFIED="1608186217597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test01_admin_login_TestAdminLogin_test_admin_login.coverage" NAME="pytest for test01_admin_login.TestAdminLogin.test_admin_login Coverage Results" MODIFIED="1609330528160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test02_admin_login_jump_TestAdminLoginJump_test_admin_login_jump.coverage" NAME="pytest for test02_admin_login_jump.TestAdminLoginJump.test_admin_login_jump Coverage Results" MODIFIED="1609468860217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test05_admin_doctor_detail_change_TestAdminDoctorDetailChange_test_admin_doctor_detail_change.coverage" NAME="pytest for test05_admin_doctor_detail_change.TestAdminDoctorDetailChange.test_admin_doctor_detail_change Coverage Results" MODIFIED="1607921570882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_in_test04_admin_create_doctor_py.coverage" NAME="pytest in test04_admin_create_doctor.py Coverage Results" MODIFIED="1608801781788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$test01_admin_login.coverage" NAME="test01_admin_login Coverage Results" MODIFIED="1609327553182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_in_test05_admin_doctor_sort_py.coverage" NAME="pytest in test05_admin_doctor_sort.py Coverage Results" MODIFIED="1609469895686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_in_test03_admin_login_porget_password_py.coverage" NAME="pytest in test03_admin_login_porget_password.py Coverage Results" MODIFIED="1611128717091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$redis_cli.coverage" NAME="redis_cli Coverage Results" MODIFIED="1608177174784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test11_doctor_login_TestDoctorLogin.coverage" NAME="pytest for test11_doctor_login.TestDoctorLogin Coverage Results" MODIFIED="1609480170628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$page_admin_login.coverage" NAME="page_admin_login Coverage Results" MODIFIED="1608018027810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/ADHD$config.coverage" NAME="config Coverage Results" MODIFIED="1608864510492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test03_admin_create_doctor_TestAdminCreateDoctor.coverage" NAME="pytest for test03_admin_create_doctor.TestAdminCreateDoctor Coverage Results" MODIFIED="1608037970073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$handlers.coverage" NAME="handlers Coverage Results" MODIFIED="1609335546085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../python3.9/Lib/logging" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test08_admin_doctor_detail_frozen_TestAdminDoctorDetailFrozen_test_admin_doctor_detail_frozen.coverage" NAME="pytest for test08_admin_doctor_detail_frozen.TestAdminDoctorDetailFrozen.test_admin_doctor_detail_frozen Coverage Results" MODIFIED="1611129371116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test02_admin_login_jump_TestAdminLoginJump.coverage" NAME="pytest for test02_admin_login_jump.TestAdminLoginJump Coverage Results" MODIFIED="1611128246598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$read_json.coverage" NAME="read_json Coverage Results" MODIFIED="1612170113508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/ADHD$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1611384357829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ADHD$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1612668085890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_in_test07_admin_doctor_detail_change_py.coverage" NAME="pytest in test07_admin_doctor_detail_change.py Coverage Results" MODIFIED="1609470497653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test09_admin_account_change_email_TestAdminAccountChangeEmail_test_admin_account_change_email.coverage" NAME="pytest for test09_admin_account_change_email.TestAdminAccountChangeEmail.test_admin_account_change_email Coverage Results" MODIFIED="1609471805024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$run_test_chrome.coverage" NAME="run_test_chrome Coverage Results" MODIFIED="1612681394475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test03_admin_create_doctor_TestAdminCreateDoctor_test_admin_create_doctor.coverage" NAME="pytest for test03_admin_create_doctor.TestAdminCreateDoctor.test_admin_create_doctor Coverage Results" MODIFIED="1608023577216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$get_logger1.coverage" NAME="get_logger1 Coverage Results" MODIFIED="1609327190564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_in_test02_admin_login_jump_py.coverage" NAME="pytest in test02_admin_login_jump.py Coverage Results" MODIFIED="1609378111369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test03_admin_login_porget_password_TestAdminLoginPorgetPassword_test_admin_login_porget_password.coverage" NAME="pytest for test03_admin_login_porget_password.TestAdminLoginPorgetPassword.test_admin_login_porget_password Coverage Results" MODIFIED="1610329435047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test02_admin_create_doctor_TestAdminCreateDoctor.coverage" NAME="pytest for test02_admin_create_doctor.TestAdminCreateDoctor Coverage Results" MODIFIED="1607950743620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test05_admin_doctor_sort_TestAdminDoctorSort.coverage" NAME="pytest for test05_admin_doctor_sort.TestAdminDoctorSort Coverage Results" MODIFIED="1608083778056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test06_admin_search_doctor_TestAdminSearchDoctor_test_admin_search_doctor.coverage" NAME="pytest for test06_admin_search_doctor.TestAdminSearchDoctor.test_admin_search_doctor Coverage Results" MODIFIED="1609470446091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$01.coverage" NAME="01 Coverage Results" MODIFIED="1608177156669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test08_admin_account_change_email_TestAdminAccountChangeEmail.coverage" NAME="pytest for test08_admin_account_change_email.TestAdminAccountChangeEmail Coverage Results" MODIFIED="1608201852752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test07_admin_doctor_detail_change_TestAdminDoctorDetailChange_test_admin_doctor_detail_change.coverage" NAME="pytest for test07_admin_doctor_detail_change.TestAdminDoctorDetailChange.test_admin_doctor_detail_change Coverage Results" MODIFIED="1611129319981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test10_admin_account_change_password_TestAdminAccountChangePassword_test_admin_account_change_password.coverage" NAME="pytest for test10_admin_account_change_password.TestAdminAccountChangePassword.test_admin_account_change_password Coverage Results" MODIFIED="1609473017642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_in_test01_admin_login_py.coverage" NAME="pytest in test01_admin_login.py Coverage Results" MODIFIED="1611128211514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$get_logger.coverage" NAME="get_logger Coverage Results" MODIFIED="1611900822658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/ADHD$get_mysql.coverage" NAME="get_mysql Coverage Results" MODIFIED="1611912377433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test07_admin_login_porget_password_TestAdminLoginPorgetPassword.coverage" NAME="pytest for test07_admin_login_porget_password.TestAdminLoginPorgetPassword Coverage Results" MODIFIED="1608188111202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test03_admin_login_porget_password_TestAdminLoginPorgetPassword.coverage" NAME="pytest for test03_admin_login_porget_password.TestAdminLoginPorgetPassword Coverage Results" MODIFIED="1611128306392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$redis_admin_login.coverage" NAME="redis_admin_login Coverage Results" MODIFIED="1612685422443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/ADHD$test.coverage" NAME="test Coverage Results" MODIFIED="1612498064106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$0.coverage" NAME="0 Coverage Results" MODIFIED="1609319190032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_in_test06_admin_search_doctor_py.coverage" NAME="pytest in test06_admin_search_doctor.py Coverage Results" MODIFIED="1611129296148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test04_admin_create_doctor_TestAdminCreateDoctor.coverage" NAME="pytest for test04_admin_create_doctor.TestAdminCreateDoctor Coverage Results" MODIFIED="1611129186508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$123.coverage" NAME="123 Coverage Results" MODIFIED="1609325055991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test04_admin_create_doctor_TestAdminCreateDoctor_test_admin_create_doctor.coverage" NAME="pytest for test04_admin_create_doctor.TestAdminCreateDoctor.test_admin_create_doctor Coverage Results" MODIFIED="1611128927853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_in_test09_admin_account_change_email_py.coverage" NAME="pytest in test09_admin_account_change_email.py Coverage Results" MODIFIED="1611129396156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/ADHD$pytest_for_test05_admin_doctor_detail_change_TestAdminDoctorDetailChange.coverage" NAME="pytest for test05_admin_doctor_detail_change.TestAdminDoctorDetailChange Coverage Results" MODIFIED="1607926239773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ADHD" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>page_admin_doctor_detail_name_change</find>
+      <find>page_admin_login_success</find>
+      <find>//a[text()=&quot;忘记密码&quot;]</find>
+      <find>account</find>
+      <find>(//p[@class=&quot;name-right&quot;])[3]</find>
+      <find>'xpath', '(//img)[7]'</find>
+      <find>del</find>
+      <find>page_admin_doctor_list_get_first</find>
+      <find>111111Aa</find>
+      <find>我</find>
+      <find>我到fixture了</find>
+      <find>data+desc</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/page/page_in.py" />
+        <option value="$PROJECT_DIR$/page/page_doctor_login.py" />
+        <option value="$PROJECT_DIR$/data/doctor/page/login_success.json" />
+        <option value="$PROJECT_DIR$/scripts/test12_doctor_porget_password.py" />
+        <option value="$PROJECT_DIR$/data/doctor/scripts/login.yaml" />
+        <option value="$PROJECT_DIR$/page/page_admin_create_doctor.py" />
+        <option value="$PROJECT_DIR$/page/page_doctor_activate_account.py" />
+        <option value="$PROJECT_DIR$/data/doctor/scripts/activate_account.yaml" />
+        <option value="$PROJECT_DIR$/open_html.py" />
+        <option value="$PROJECT_DIR$/data/admin/scripts/login.yaml" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/page/page_admin_login_porget_password.py" />
+        <option value="$PROJECT_DIR$/scripts/1.py" />
+        <option value="$PROJECT_DIR$/data/admin/scripts/account_change_email.yaml" />
+        <option value="$PROJECT_DIR$/page/page_admin_account.py" />
+        <option value="$PROJECT_DIR$/tool/create_html.py" />
+        <option value="$PROJECT_DIR$/cerate_html.py" />
+        <option value="$PROJECT_DIR$/data/admin/scripts/login_jump.yaml" />
+        <option value="$PROJECT_DIR$/data/admin/scripts/login_porget_password.yaml" />
+        <option value="$PROJECT_DIR$/run_test.py" />
+        <option value="$PROJECT_DIR$/scripts/test11_doctor_login.py" />
+        <option value="$PROJECT_DIR$/scripts/test13_doctor_activate_account.py" />
+        <option value="$PROJECT_DIR$/log/2021-01-28.log" />
+        <option value="$PROJECT_DIR$/scripts/test11111111.py" />
+        <option value="$PROJECT_DIR$/base/base.py" />
+        <option value="$PROJECT_DIR$/page/page_admin_doctor_list.py" />
+        <option value="$PROJECT_DIR$/tool/get_logger.py" />
+        <option value="$PROJECT_DIR$/tool/get_mysql.py" />
+        <option value="$PROJECT_DIR$/tool/redis_clear.py" />
+        <option value="$PROJECT_DIR$/tool/redis_cl.py" />
+        <option value="$PROJECT_DIR$/page/page_admin_login.py" />
+        <option value="$PROJECT_DIR$/scripts/__init__.py" />
+        <option value="$PROJECT_DIR$/tool/read_json.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/page/__init__.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/scripts/test.py" />
+        <option value="$PROJECT_DIR$/scripts/test2.py" />
+        <option value="$PROJECT_DIR$/tool/test2.py" />
+        <option value="$PROJECT_DIR$/scripts/test01_admin_login.py" />
+        <option value="$PROJECT_DIR$/scripts/test02_admin_login_jump.py" />
+        <option value="$PROJECT_DIR$/scripts/test03_admin_login_porget_password.py" />
+        <option value="$PROJECT_DIR$/scripts/test04_admin_create_doctor.py" />
+        <option value="$PROJECT_DIR$/scripts/test05_admin_doctor_sort.py" />
+        <option value="$PROJECT_DIR$/scripts/test06_admin_search_doctor.py" />
+        <option value="$PROJECT_DIR$/scripts/test07_admin_doctor_detail_change.py" />
+        <option value="$PROJECT_DIR$/scripts/test08_admin_doctor_detail_frozen.py" />
+        <option value="$PROJECT_DIR$/scripts/test09_admin_account_change_email.py" />
+        <option value="$PROJECT_DIR$/scripts/test10_admin_account_change_password.py" />
+        <option value="$PROJECT_DIR$/tool/get_driver.py" />
+        <option value="$PROJECT_DIR$/run_test_chrome.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="8" />
+    <option name="y" value="69" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ADHD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADHD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADHD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADHD" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADHD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADHD" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\projects\ADHD\data" />
+      <recent name="D:\Python\projects\ADHD" />
+      <recent name="D:\Python\Projects\ADHD\data\doctor\page" />
+      <recent name="D:\Python\Projects\ADHD\log" />
+      <recent name="D:\Python\Projects\ADHD\tool" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\linux\ADHD-admin\ADHD\tool" />
+      <recent name="D:\Python\Projects\ADHD\tool" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.redis_cl">
+    <configuration name="redis_admin_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ADHD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tool/redis_admin_login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="redis_cl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ADHD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tool/redis_cl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_test_chrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ADHD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\linux\ADHD-admin\ADHD\run_chrome.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ADHD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ADHD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tool/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.redis_cl" />
+      <item itemvalue="Python.redis_admin_login" />
+      <item itemvalue="Python.run_test_chrome" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.test2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.redis_cl" />
+        <item itemvalue="Python.redis_admin_login" />
+        <item itemvalue="Python.run_test_chrome" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41fd3f90-ca5b-4488-88a7-6ee3d0de735b" name="Default Changelist" comment="" />
+      <created>1607908112463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607908112463</updated>
+      <workItem from="1607908113927" duration="22487000" />
+      <workItem from="1607994524801" duration="32039000" />
+      <workItem from="1608080403445" duration="24570000" />
+      <workItem from="1608166850612" duration="28924000" />
+      <workItem from="1608208960038" duration="9407000" />
+      <workItem from="1608253025183" duration="9081000" />
+      <workItem from="1608364559148" duration="7339000" />
+      <workItem from="1608445253852" duration="7165000" />
+      <workItem from="1608544792859" duration="874000" />
+      <workItem from="1608602404079" duration="3701000" />
+      <workItem from="1608620465581" duration="108000" />
+      <workItem from="1608621038024" duration="5424000" />
+      <workItem from="1608792453188" duration="9179000" />
+      <workItem from="1608862835369" duration="19385000" />
+      <workItem from="1609119790399" duration="25886000" />
+      <workItem from="1609203673702" duration="28075000" />
+      <workItem from="1609290754103" duration="17819000" />
+      <workItem from="1609325707492" duration="10078000" />
+      <workItem from="1609337189721" duration="127000" />
+      <workItem from="1609376379065" duration="11439000" />
+      <workItem from="1609403778695" duration="2781000" />
+      <workItem from="1609467337989" duration="9699000" />
+      <workItem from="1609492380243" duration="1924000" />
+      <workItem from="1609557679164" duration="11224000" />
+      <workItem from="1609731839519" duration="6891000" />
+      <workItem from="1609920327262" duration="7576000" />
+      <workItem from="1609983499666" duration="4035000" />
+      <workItem from="1610014472511" duration="99000" />
+      <workItem from="1610068124524" duration="13046000" />
+      <workItem from="1610089287207" duration="1294000" />
+      <workItem from="1610327301468" duration="2333000" />
+      <workItem from="1610340557146" duration="4631000" />
+      <workItem from="1611127325912" duration="3178000" />
+      <workItem from="1611201600777" duration="676000" />
+      <workItem from="1611381678323" duration="4150000" />
+      <workItem from="1611386076087" duration="2511000" />
+      <workItem from="1611818843323" duration="78000" />
+      <workItem from="1611819000630" duration="5922000" />
+      <workItem from="1611835250460" duration="7019000" />
+      <workItem from="1611885069317" duration="14137000" />
+      <workItem from="1611909121455" duration="21000" />
+      <workItem from="1611909187830" duration="2835000" />
+      <workItem from="1612167459503" duration="4447000" />
+      <workItem from="1612173009366" duration="79000" />
+      <workItem from="1612425368983" duration="681000" />
+      <workItem from="1612491691602" duration="6705000" />
+      <workItem from="1612663816469" duration="8519000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_test02_admin_login_jump_TestAdminLoginJump - 2021.01.20 at 15h 37m 39s.xml">
+      <configuration name="pytest for test02_admin_login_jump.TestAdminLoginJump" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test03_admin_login_porget_password_TestAdminLoginPorgetPassword - 2021.01.20 at 15h 43m 40s.xml">
+      <configuration name="pytest for test03_admin_login_porget_password.TestAdminLoginPorgetPassword" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test03_admin_login_porget_password_py - 2021.01.20 at 15h 46m 52s.xml">
+      <configuration name="pytest in test03_admin_login_porget_password.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test04_admin_create_doctor_TestAdminCreateDoctor_test_admin_create_doctor - 2021.01.20 at 15h 49m 39s.xml">
+      <configuration name="pytest for test04_admin_create_doctor.TestAdminCreateDoctor.test_admin_create_doctor" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test04_admin_create_doctor_TestAdminCreateDoctor - 2021.01.20 at 15h 53m 31s.xml">
+      <configuration name="pytest for test04_admin_create_doctor.TestAdminCreateDoctor" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test05_admin_doctor_sort_TestAdminDoctorSort_test_admin_doctor_sort - 2021.01.20 at 15h 54m 07s.xml">
+      <configuration name="pytest for test05_admin_doctor_sort.TestAdminDoctorSort.test_admin_doctor_sort" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test06_admin_search_doctor_py - 2021.01.20 at 15h 55m 09s.xml">
+      <configuration name="pytest in test06_admin_search_doctor.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test07_admin_doctor_detail_change_TestAdminDoctorDetailChange_test_admin_doctor_detail_change - 2021.01.20 at 15h 56m 06s.xml">
+      <configuration name="pytest for test07_admin_doctor_detail_change.TestAdminDoctorDetailChange.test_admin_doctor_detail_change" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test08_admin_doctor_detail_frozen_TestAdminDoctorDetailFrozen_test_admin_doctor_detail_frozen - 2021.01.20 at 15h 56m 29s.xml">
+      <configuration name="pytest for test08_admin_doctor_detail_frozen.TestAdminDoctorDetailFrozen.test_admin_doctor_detail_frozen" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test09_admin_account_change_email_py - 2021.01.20 at 15h 59m 55s.xml">
+      <configuration name="pytest in test09_admin_account_change_email.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="399598000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" sideWeight="0.50080776" side_tool="true" weight="0.20042644" />
+      <window_info id="Favorites" order="1" sideWeight="0.50080776" side_tool="true" weight="0.20042644" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49919224" visible="true" weight="0.2553305" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18851571" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30552545" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" sideWeight="0.50080776" side_tool="true" weight="0.20042644" />
+      <window_info id="Favorites" order="1" sideWeight="0.50080776" side_tool="true" weight="0.20042644" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49919224" visible="true" weight="0.2553305" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35102925" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30552545" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/log/2021-01-29.log.4" />
+    <entry file="file://$PROJECT_DIR$/log/2021-01-29.log.5" />
+    <entry file="file://$PROJECT_DIR$/log/2021-01-29.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test12_doctor_porget_password.py" />
+    <entry file="file://$PROJECT_DIR$/scripts/test13_doctor_activate_account.py" />
+    <entry file="file://$PROJECT_DIR$/scripts/test11_doctor_login.py" />
+    <entry file="file://$PROJECT_DIR$/data/admin/scripts/account_change_email.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_admin_account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_admin_create_doctor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_admin_doctor_detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_admin_doctor_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2399">
+          <caret line="83" column="48" lean-forward="true" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_admin_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_admin_login_porget_password.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_doctor_activate_account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_doctor_child_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_in.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_doctor_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/get_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-863">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/get_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/read_yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/read_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/doctor/page/login_success.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2021-02-01.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geckodriver.log" />
+    <entry file="file://$PROJECT_DIR$/report/allure-html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/python3.9/Lib/site-packages/selenium/webdriver/chrome/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3071">
+          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test01_admin_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test02_admin_login_jump.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test03_admin_login_porget_password.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test04_admin_create_doctor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test05_admin_doctor_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test06_admin_search_doctor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test07_admin_doctor_detail_change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test08_admin_doctor_detail_frozen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test09_admin_account_change_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test10_admin_account_change_password.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/get_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/redis_clear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/redis_admin_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cerate_html.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/redis_cl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open_html.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+# 用例包含：
+  # 1.管理员端跳转医生端
+  # 2.医生端跳转管理员端
+
+login_jump001:
+  login: "admin"
+  expect: "北医六院儿童训练系统 — 医生端"
+  titles: "管理员端跳转医生端"
+login_jump002:
+  login: "doctor"
+  expect: "北医六院儿童训练系统 — 管理员端"
+  titles: "医生端跳转管理员端"

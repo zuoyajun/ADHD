@@ -1,0 +1,47 @@
+# 用例包含：
+  # 1.身份证号错误
+  # 2.成功创建-不删除
+  # 3.身份证已存在-删除创建数据
+
+create_doctor001:
+  doctor_status: ""
+  doctor_name: "测试创建001"
+  doctor_sex: ""
+  doctor_num: "123456789012345678"
+  expect: "身份证信息错误,请确认"
+  doctor_no_phone: ""
+  doctor_unit: ""
+  doctor_create_time: ""
+  success: "False"
+  is_delete: ""
+  doctor_create_delete_relevance: ""
+  doctor_create_delete: ""
+  titles: "身份证号错误"
+create_doctor002:
+  doctor_status: "（账号未激活）"
+  doctor_name: "测试创建001"
+  doctor_sex: "女"
+  doctor_num: "110101199005104908"
+  expect: ""
+  doctor_no_phone: "账户未激活"
+  doctor_unit: "北京大学第六医院"
+  doctor_create_time: "SELECT DATE_FORMAT(b.create_time, '%Y-%m-%d %T') create_time FROM auth_user a LEFT JOIN ccat_doctor b ON a.user_id = b.user_id WHERE a.id_card='110101199005104908'"
+  success: "True"
+  is_delete: ""
+  doctor_create_delete_relevance: ""
+  doctor_create_delete: ""
+  titles: "成功创建"
+create_doctor003:
+  doctor_status: ""
+  doctor_name: "测试创建0002"
+  doctor_sex: ""
+  doctor_num: "110101199005104908"
+  expect: "系统中已存在此身份证号的医生,请确认"
+  doctor_no_phone: ""
+  doctor_unit: ""
+  doctor_create_time: ""
+  success: "False"
+  is_delete: "True"
+  doctor_create_delete_relevance: "delete c2 from auth_user c1,ccat_doctor c2 where c1.id_card='110101199005104908' and c1.user_id=c2.user_id;"
+  doctor_create_delete : "delete from auth_user where id_card='110101199005104908';"
+  titles: "身份证已存在"
