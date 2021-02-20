@@ -1,0 +1,16 @@
+# 用例包含：
+  # 1.登录失败
+  # 2.登录成功
+
+login001:
+  phone: "15901242777"
+  password: "111111"
+  expect: "手机号或密码错误，请重新输入"
+  success: "False"
+  titles: "登录失败"
+login002:
+  phone: "15901242750"
+  password: "111111Aa"
+  expect: "儿童认知评估与训练系统-医生端"
+  success: "True"
+  titles: "登录成功"

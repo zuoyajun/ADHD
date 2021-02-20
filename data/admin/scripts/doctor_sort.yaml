@@ -1,0 +1,20 @@
+# 姓名+升
+doctor_sort001:
+  sort: "name+asc"
+  mysql: "select name from ccat_doctor order by convert(name using gbk) asc limit 3"
+  titles: "姓名+升序"
+# 姓名+降
+doctor_scrt002:
+  sort: "name+desc"
+  mysql: "select name from ccat_doctor order by convert(name using gbk) desc limit 3"
+  titles: "姓名+降序"
+# 日期+升
+doctor_scrt003:
+  sort: "data+asc"
+  mysql: "select name from ccat_doctor order by create_time desc limit 3;"
+  titles: "日期+升序"
+# 日期+降
+doctor_scrt004:
+  sort: "data+desc"
+  mysql: "select name from ccat_doctor order by create_time asc limit 3;"
+  titles: "日期+降序"
