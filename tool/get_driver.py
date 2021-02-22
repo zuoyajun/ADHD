@@ -1,4 +1,4 @@
-
+﻿
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
@@ -21,14 +21,14 @@ class GetDriver:
                 chrome.add_argument('--no-sandbox')
                 chrome.add_argument('--disable-gpu')
 
-                self.__web_driver = webdriver.Remote(command_executor="http://192.168.1.242:4444/wd/hub",
+                self.__web_driver = webdriver.Remote(command_executor="http://192.168.1.246:4444/wd/hub",
                                                      desired_capabilities=DesiredCapabilities.CHROME, options=chrome)
             elif browser == 'firefox':
                 firefox = Options()
                 # firefox.add_argument("headless")
                 firefox.add_argument('--no-sandbox')
                 firefox.add_argument('--disable-gpu')
-                self.__web_driver = webdriver.Remote(command_executor="http://192.168.1.242:4444/wd/hub",
+                self.__web_driver = webdriver.Remote(command_executor="http://192.168.1.246:4444/wd/hub",
                                                      desired_capabilities=DesiredCapabilities.FIREFOX, options=firefox)
 
             # 最大化浏览器
