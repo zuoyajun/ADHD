@@ -32,7 +32,7 @@ def premise(browser):
 
 
 # 跳过用例
-# @pytest.mark.skipif(reason="暂不使用")
+@pytest.mark.skipif(reason="暂不使用")
 class TestAdminAccountChangePassword:
     @allure.epic("管理员端")
     @allure.feature("管理员账户用例")
@@ -72,6 +72,7 @@ class TestAdminAccountChangePassword:
         admin_account, admin_login_porget_password, admin_login, admin_doctor_list = premise
         # 调用 获取邮箱方法
         email = admin_account.page_account_get_email()
+        redis_clear(email)
         sleep(1)
         with allure.step("点击密码-修改按钮"):
             admin_account.page_account_password_change()

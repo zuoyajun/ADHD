@@ -27,7 +27,7 @@ def premise(browser):
 
 
 # 跳过用例
-# @pytest.mark.skipif(reason="暂不使用")
+@pytest.mark.skipif(reason="暂不使用")
 class TestAdminLoginPorgetPassword:
     @allure.epic("管理员端")
     @allure.feature("忘记密码用例")
@@ -78,6 +78,7 @@ class TestAdminLoginPorgetPassword:
         sleep(2)
         # 获取邮箱
         email = admin_login.page_admin_login_get_email()
+        redis_clear(email)
         with allure.step("点击忘记密码按钮"):
             admin_login.page_admin_login_porget_password()
             sleep(2)

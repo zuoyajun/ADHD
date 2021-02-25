@@ -27,7 +27,7 @@ def premise(browser):
 
 
 # 跳过用例
-# @pytest.mark.skipif(reason="暂不使用")
+@pytest.mark.skipif(reason="暂不使用")
 class TestAdminAccountChangeEmail:
     @allure.epic("管理员端")
     @allure.feature("管理员账户用例")
@@ -84,10 +84,11 @@ class TestAdminAccountChangeEmail:
                                         titles,
                                         premise):
         admin_account = premise
-
         sleep(1)
         # 调用 获取邮箱方法
         old_email = admin_account.page_account_get_email()
+        redis_clear(old_email)
+        redis_clear(new_email)
         with allure.step("点击邮箱-修改按钮"):
             admin_account.page_account_email_change_btn()
         sleep(1)
