@@ -32,7 +32,7 @@ def premise(browser):
 
 
 # 跳过用例
-@pytest.mark.skipif(reason="暂不使用")
+# @pytest.mark.skipif(reason="暂不使用")
 class TestAdminAccountChangePassword:
     @allure.epic("管理员端")
     @allure.feature("管理员账户用例")

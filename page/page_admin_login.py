@@ -1,3 +1,5 @@
+from time import sleep
+
 import page
 from base.base import Base
 from tool.read_json import read_json
@@ -47,4 +49,5 @@ class PageAdminLogin(Base):
     # 依赖方法--成功登录
     def page_admin_login_success(self, password=read_json("admin", "page", "login_success.json")['password']):
         self.page_admin_login_password(password)
+        sleep(1)
         self.page_admin_login_btn()

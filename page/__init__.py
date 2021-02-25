@@ -3,13 +3,9 @@ from selenium.webdriver.common.by import By
 """以下为服务器域名配置地址"""
 # 管理员端地址-测试地址
 admin_url = "http://test-ccat.66nao.cn/#/admin/login"
-# 管理员端地址-付凯本地
-# admin_url = "http://192.168.1.241/#/admin/login"
-
 # 医生端地址-测试地址
 doctor_url = "http://test-ccat.66nao.cn/#/doctor/login"
-# 医生端地址-付凯本地
-# doctor_url = "http://192.168.1.241/#/doctor/login"
+
 
 # 儿童端地址
 child_url = ""

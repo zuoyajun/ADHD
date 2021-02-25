@@ -57,10 +57,10 @@ class PageAdminLoginPorgetPassword(Base):
     # 组合业务方法——忘记密码-->还原使用
     def page_admin_login_porget_password_group(self, code, new_password):
         self.page_admin_login_porget_password_get_code_btn()
-        sleep(3)
+        sleep(5)
         self.page_admin_login_porget_password_input_code(code)
-        sleep(1)
+        sleep(2)
         self.page_admin_login_porget_password_new_input(new_password)
-        sleep(1)
+        sleep(2)
         self.page_admin_login_porget_password_new_btn()
-        sleep(1)
+        sleep(2)
