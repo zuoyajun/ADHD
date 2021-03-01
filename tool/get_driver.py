@@ -17,7 +17,7 @@ class GetDriver:
             if browser == 'chrome':
                 chrome = Options()
                 # 开启静默模式
-                # chrome.add_argument("headless")
+                chrome.add_argument("headless")
                 chrome.add_argument('--no-sandbox')
                 chrome.add_argument('--disable-gpu')
 
@@ -25,7 +25,7 @@ class GetDriver:
                                                      desired_capabilities=DesiredCapabilities.CHROME, options=chrome)
             elif browser == 'firefox':
                 firefox = Options()
-                # firefox.add_argument("headless")
+                firefox.add_argument("headless")
                 firefox.add_argument('--no-sandbox')
                 firefox.add_argument('--disable-gpu')
                 self.__web_driver = webdriver.Remote(command_executor="http://192.168.1.246:4444/wd/hub",
